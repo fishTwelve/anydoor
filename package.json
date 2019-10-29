@@ -1,10 +1,10 @@
 {
-  "name": "anydoor",
+  "name": "anydoor-yjy",
   "version": "1.0.0",
   "description": "node project",
   "main": "src/app.js",
   "bin": {
-    "anydoor": "bin/angdoor"
+    "anydoor": "bin/anydoor"
   },
   "dependencies": {
     "chalk": "^2.4.2",
@@ -14,7 +14,6 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
-    "eslint": "^6.5.1",
     "eslint-config-google": "^0.14.0",
     "pre-commit": "^1.2.2"
   },
@@ -23,10 +22,6 @@
     "lint": "eslint .",
     "fix": "eslint --fix ."
   },
-  "pre-commit": [
-    "fix",
-    "lint"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yjy2019/anydoor.git"

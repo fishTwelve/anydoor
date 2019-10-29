@@ -1,6 +1,6 @@
 const path = require('path')
 
- const mimeTypes = {
+const mimeTypes = {
     'css' : 'text/css',
     'gif' : 'image/gif',
     'html' : 'text/html',
@@ -18,7 +18,7 @@ module.exports = (filePath) => {
         .toLowerCase() // 转小写
     if (!ext) {
         // 没有拓展名则直接取文件名或者其他随便什么也可
-       ext = filePath
+        ext = filePath
     }
     // console.log(mimeTypes[ext])
     return mimeTypes[ext] || mimeTypes['txt']

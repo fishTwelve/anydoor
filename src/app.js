@@ -17,7 +17,7 @@ class Server {
             fn(req, res, filePath, this.conf)
         })
 
-// 监听
+        // 监听
         server.listen(this.conf.port, this.conf.hostname, () => {
             // 地址
             const addr = `http://${this.conf.hostname}:${this.conf.port}`
