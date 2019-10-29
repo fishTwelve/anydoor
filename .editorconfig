@@ -1,0 +1,15 @@
+root = true
+# 编码类型
+charset = utf-8
+# 缩进类型
+indent_style = space
+# 缩进大小
+indent_size = 5
+# 换行符类型
+end_of_line = "lf"
+insert_final_newline = true
+# 是否删除行尾空格
+trim_trailing_whitespace = true
+
+[.json]
+indent_size = 4
